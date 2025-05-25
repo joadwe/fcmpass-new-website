@@ -2,7 +2,7 @@
 
 <figure><img src="../../assets/ExpCalFLCal.png" alt=""><figcaption></figcaption></figure>
 
-1. If a fluorescence parameter is not being calibrated, proceed to [light scatter calibration](../light-scatter.md) by clicking 'Next'.
+1. If a fluorescence parameter is not being calibrated, proceed to [light scatter calibration](light-scatter.md) by clicking 'Next'.
 2. If a fluorescence parameter is being calibrated, click the '+' icon.
 3. From the 'Reference Fluorophore' dropdown select the catalogued reference standard being used to calibrate the parameter.
 
