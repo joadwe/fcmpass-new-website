@@ -1,0 +1,98 @@
+site_name: FCM<sub>PASS</sub>
+site_url: https://fcmpass.com
+theme:
+  name: material
+  logo: assets/logo-720.jpeg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.select
+  palette: 
+      # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+nav:
+  - Home: README.md
+  - download.md
+  - Documentation:
+    - Getting Started:
+      - Install Requirements: getting-started/install-requirements.md
+      - Installation: getting-started/installation.md
+      - Registration & login: getting-started/registration-and-login.md
+    - Cataloguing:
+      - Overview: cataloguing/README.md
+      - Flow cytometers: cataloguing/flow-cytometers.md
+      - Scatter beads: cataloguing/scatter-beads.md
+      - Fluorescent beads: cataloguing/fluorescent-beads.md
+      - Rainbow beads: cataloguing/rainbow-beads.md
+      - Automated cross-calibration: cataloguing/automated-cross-calibration.md
+    - Calibration:
+      - Overview: calibration/README.md
+      - Fluorescence: calibration/fluorescence.md
+      - Light scatter: calibration/light-scatter.md
+      - Process fcs files: calibration/process-fcs-files.md
+    - Optimization:
+      - Fluorescence:
+        - Data generation: optimization/fluorescence/data-generation.md
+        - Data analysis: optimization/fluorescence/data-analysis.md
+        - Data outputs: optimization/fluorescence/data-outputs.md
+      - Light scatter: optimization/light-scatter.md
+  - Examples:
+    - Overview: examples/README.md
+    - Fluorescence Diameter: examples/fluorescence-diameter.md
+    - Known Scatter Angle: examples/known-angle-scatter-calibration.md
+  - Legal:
+    - Terms of service: legal/terms-of-service.md
+    - Privacy policy: legal/privacy-policy.md
+  - Changelog: changelog.md
+  - Contact Us: contact.md
+  
+markdown_extensions:
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+
+plugins:
+  - search
+
+extra:
+  generator: false
+
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage
+
+extra_css:
+  - stylesheets/extra.css
