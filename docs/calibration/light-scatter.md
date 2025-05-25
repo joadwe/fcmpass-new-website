@@ -2,8 +2,8 @@
 
 <figure><img src="../../assets/ExpCalScatterCal.png" alt=""><figcaption></figcaption></figure>
 
-1. If a light scatter parameter is not being calibrated, proceed to [processing .fcs files](../process-fcs-files.md) by clicking 'Next'.
-2. If a light scatter parameter is being calibrated, click the '+' icon. Currently, only side scatter calibration is supported. Flow cytometer light scatter calibrations supported can be found [here](../../cataloguing/README.md)
+1. If a light scatter parameter is not being calibrated, proceed to [processing .fcs files](process-fcs-files.md) by clicking 'Next'.
+2. If a light scatter parameter is being calibrated, click the '+' icon. Currently, only side scatter calibration is supported. Flow cytometer light scatter calibrations supported can be found [here](../cataloguing/README.md)
 3. From the 'Scatter Parameter' dropdown select the light scatter parameter that you wish to calibrate.
 
 !!! note
@@ -20,7 +20,7 @@
 !!! note
     Fields that are left blank or contain 'NaN' will be ignored and removed automatically from downstream calibration.
 
-5. Further advanced light scatter calibration parameters can be applied or modified by clicking the 'Advanced Settings' button (No.4). Otherwise, proceed to [processing .fcs files](../process-fcs-files.md)
+5. Further advanced light scatter calibration parameters can be applied or modified by clicking the 'Advanced Settings' button (No.4). Otherwise, proceed to [processing .fcs files](process-fcs-files.md)
 
 ## Advanced settings
 
