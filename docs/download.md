@@ -44,13 +44,13 @@ Please refer to the installation and registration [documentation](getting-starte
 <div style="display: flex; justify-content: start; gap: 10px;">
   <div style="text-align: center; max-width: 25%; border: 1px solid #ccc; padding: 10px; box-sizing: border-box;">
     <a href="https://win.download.fcmpass.com" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; color: inherit;">
-      <img src="https://fcmpass.com/assets/main-Slide1.PNG" alt="Download for Windows" style="width: 100%; height: auto;">
+      <img src="assets/main-Slide1.PNG" alt="Download for Windows" style="width: 100%; height: auto;">
       <p>Download Windows</p>
     </a>
     </div>
     <div style="text-align: center; max-width: 25%; border: 1px solid #ccc; padding: 10px; box-sizing: border-box;">
     <a href="https://mac.download.fcmpass.com" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; color: inherit;">
-      <img src="https://fcmpass.com/assets/main-Slide2.PNG" alt="Download for Apple (M-series)" style="width: 100%; height: auto;">
+      <img src="assets/main-Slide2.PNG" alt="Download for Apple (M-series)" style="width: 100%; height: auto;">
       <p>Download Mac</p>
     </a>
     </div>
