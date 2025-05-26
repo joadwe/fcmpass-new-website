@@ -13,9 +13,9 @@ For information on installation, registration, and login, please see the [docume
 !!! note
     For full details of the end user agreement, please read our [terms of service](legal/terms-of-service.md).
 
-    If your institutional email address is not recognized please contact:[ info@fcm<sub>pass</sub>.com](mailto:info@fcm<sub>pass</sub>.com). If you are suspected of using the software outside of the [terms of service](legal/terms-of-service.md), your account may be suspended.
+    If your institutional email address is not recognized please contact:[ info@fcmpass.com](mailto:info@fcmpass.com). If you are suspected of using the software outside of the [terms of service](legal/terms-of-service.md), your account may be suspended.
 
-    You can check if your email address is recognized at: [check.fcm<sub>pass</sub>.com](https://check.fcm<sub>pass</sub>.com/):
+    You can check if your email address is recognized at: [check.fcm<sub>pass</sub>.com](https://check.fcmpass.com/):
 
 === "Free tier:"
 
@@ -29,7 +29,7 @@ For information on installation, registration, and login, please see the [docume
 
 === "Paid tier:"
 
-    If the software needs to be used in a way that doesn't fall within the specified 'free tier' criteria,  unrestricted licenses can be purchased. Please contact [sales@fcm<sub>pass</sub>.com](mailto:sales@fcm<sub>pass</sub>.com).&#x20;
+    If the software needs to be used in a way that doesn't fall within the specified 'free tier' criteria,  unrestricted licenses can be purchased. Please contact [sales@fcmpass.com](mailto:sales@fcmpass.com).&#x20;
 
     Paid tiers will also have access to:
 
@@ -43,13 +43,13 @@ Please refer to the installation and registration [documentation](getting-starte
 
 <div style="display: flex; justify-content: start; gap: 10px;">
   <div style="text-align: center; max-width: 25%; border: 1px solid #ccc; padding: 10px; box-sizing: border-box;">
-    <a href="https://win.download.fcm<sub>pass</sub>.com" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; color: inherit;">
+    <a href="https://win.download.fcmpass.com" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; color: inherit;">
       <img src="../assets/main-Slide1.PNG" alt="Download for Windows" style="width: 100%; height: auto;">
       <p>Download Windows</p>
     </a>
     </div>
     <div style="text-align: center; max-width: 25%; border: 1px solid #ccc; padding: 10px; box-sizing: border-box;">
-    <a href="https://mac.download.fcm<sub>pass</sub>.com" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; color: inherit;">
+    <a href="https://mac.download.fcmpass.com" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; color: inherit;">
       <img src="../assets/main-Slide2.PNG" alt="Download for Apple (M-series)" style="width: 100%; height: auto;">
       <p>Download Mac</p>
     </a>
