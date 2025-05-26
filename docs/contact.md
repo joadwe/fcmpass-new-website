@@ -17,8 +17,8 @@ UK Registered company no. 15194314
 ### Contact information
 
 
-For software information, feature requests, or troubleshooting, please contact [info@fcm<sub>pass</sub>.com](mailto:info@fcm<sub>pass</sub>.com).
+For software information, feature requests, or troubleshooting, please contact [info@fcmpass.com](mailto:info@fcmpass.com).
 
-For software license enquiries, quotes, and invoices, please contact [sales@fcm<sub>pass</sub>.com](mailto:sales@fcm<sub>pass</sub>.com).
+For software license enquiries, quotes, and invoices, please contact [sales@fcmpass.com](mailto:sales@fcmpass.com).
 
-For FCM<sub>PASS</sub> sales enquiries sales@fcm<sub>pass</sub>.com
+For FCM<sub>PASS</sub> sales enquiries sales@fcmpass.com
