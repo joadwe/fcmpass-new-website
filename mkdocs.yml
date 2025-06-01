@@ -58,7 +58,10 @@ nav:
         - Data generation: optimization/fluorescence/data-generation.md
         - Data analysis: optimization/fluorescence/data-analysis.md
         - Data outputs: optimization/fluorescence/data-outputs.md
-      - Light scatter: optimization/light-scatter.md
+      - Light scatter: 
+        - Data generation: optimization/light-scatter/data-generation.md
+        - Data analysis: optimization/light-scatter/data-analysis.md
+        - Data outputs: optimization/light-scatter/data-outputs.md
   - Examples:
     - Overview: examples/README.md
     - Fluorescence Diameter: examples/fluorescence-diameter.md
@@ -76,6 +79,14 @@ markdown_extensions:
 - admonition
 - pymdownx.details
 - pymdownx.superfences
+- sane_lists
+- pymdownx.critic
+- pymdownx.caret
+- pymdownx.keys
+- pymdownx.mark
+- pymdownx.tilde
+- tables
+- footnotes
 
 plugins:
   - search

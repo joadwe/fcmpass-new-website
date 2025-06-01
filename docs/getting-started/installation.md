@@ -22,7 +22,7 @@ xattr -d com.apple.quarantine
 3. Drag and drop the installation file into the 'Terminal' app. Which should look something like this:
 
 ```
- xattr -d com.apple.quarantine /Users/Admin/Downloads/FCM<sub>PASS</sub>_Installer.app
+ xattr -d com.apple.quarantine /Users/Admin/Downloads/FCMPASS_Installer.app
 ```
 
 4. Press the return key. You should now be able to double click the FCM<sub>PASS</sub>_Installer.app and continue as normal.

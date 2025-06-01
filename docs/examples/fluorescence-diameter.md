@@ -32,12 +32,12 @@ The first step in calibrating small particle data is to obtain the statistics of
 
 FCM<sub>PASS</sub> catalogues all of your reference materials so that you can easily access the reference numbers for future experiments and create automated reports for increasing the  transparency and ease of sharing your datasets.
 
-1. Open FCM<sub>PASS</sub>, select 'Catalogue' and navigate to the 'Fluorescence' tab.
+7. Open FCM<sub>PASS</sub>, select 'Catalogue' and navigate to the 'Fluorescence' tab.
 
 !!! note
     Ensure you have added a cytometer as outlined in [Flow cytometers](../cataloguing/flow-cytometers.md "mention").
 
-2. Input the nanoRainbow information and add 'Create Set'.
+8. Input the nanoRainbow information and add 'Create Set'.
 
 <figure><img src="../../assets/examples-image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -45,35 +45,35 @@ FCM<sub>PASS</sub> catalogues all of your reference materials so that you can ea
 
 Now that your reference materials have been added and you have the median fluorescence intensity for your bead population you're ready to calibrate your data.&#x20;
 
-1. Go to the start menu of FCM<sub>PASS</sub> and select 'Experiment Calibration'.
-2. Select the cytometer you acquired your data on and create a new experiment by click '+'.
-3. Name the dataset and click 'save'
-4. Now import all of your .fcs files that were acquired at the same settings as your nanoRainbow beads
+9. Go to the start menu of FCM<sub>PASS</sub> and select 'Experiment Calibration'.
+10. Select the cytometer you acquired your data on and create a new experiment by click '+'.
+11. Name the dataset and click 'save'
+12. Now import all of your .fcs files that were acquired at the same settings as your nanoRainbow beads
 
 <figure><img src="../../assets/examples-image (3).png" alt=""><figcaption></figcaption></figure>
 
-5. Click 'Next' and add a fluorescence calibration by clicking the '+' button.&#x20;
-6. Select the surface area calibration, choose the appropriate parameter (vFRed-A), and rename the parameter parameter appropriately (this is how it will appear in the .fcs file)
+13. Click 'Next' and add a fluorescence calibration by clicking the '+' button.&#x20;
+14. Select the surface area calibration, choose the appropriate parameter (vFRed-A), and rename the parameter parameter appropriately (this is how it will appear in the .fcs file)
 
 <figure><img src="../../assets/examples-image (4).png" alt=""><figcaption></figcaption></figure>
 
-7. Now input the relavant median fluorescence intensity statistc that was obtained earlier into the 'Regression Values' box.
+15. Now input the relavant median fluorescence intensity statistc that was obtained earlier into the 'Regression Values' box.
 
 !!! note
     FCM<sub>PASS</sub> automatically checks for linearity of your values. If a box turns red it may be that the number enter was accidently incorrect. If the first box is red and all others are green, it is most likely the first bead was not fully resolved in which case the 'Acquired value' can be left blank.
 
 <figure><img src="../../assets/examples-image (5).png" alt=""><figcaption></figcaption></figure>
 
-8. To convert the surface area regression into units of diameter select 'Advanced settings' and turn 'Surface Area to Diameter ' to 'on' and press 'save'.
-9. You can now click 'Next through to 'Perform Calibration' and click 'Calibrate'.
-10. All files will be exported into an 'FCM<sub>PASS</sub> Export' folder in the location that the files were originally imported from.&#x20;
+16. To convert the surface area regression into units of diameter select 'Advanced settings' and turn 'Surface Area to Diameter ' to 'on' and press 'save'.
+17. You can now click 'Next through to 'Perform Calibration' and click 'Calibrate'.
+18. All files will be exported into an 'FCM<sub>PASS</sub> Export' folder in the location that the files were originally imported from.&#x20;
 
 ## Calibrated data
 
-1. Now when inspecting your .fcs files in analysis software you will see the original parameter for the beads light scatter and fluorescence (Plot A-B) and two new parameters. The surface area calibrated data (Plot C) and the conversion of surface area to diameter data (Plot D).&#x20;
+19. Now when inspecting your .fcs files in analysis software you will see the original parameter for the beads light scatter and fluorescence (Plot A-B) and two new parameters. The surface area calibrated data (Plot C) and the conversion of surface area to diameter data (Plot D).&#x20;
 
 <figure><img src="../../assets/examples-calibrated-nanorainbow.png" alt=""><figcaption><p>nanoRainbow beads gated with singles (A), arbitrary unit fluorescence data (B), calibrated surface area units (C) and calibrated diameter units (D). </p></figcaption></figure>
 
-2. This data can now be used to look at your EV samples in calibrated units.&#x20;
+20. This data can now be used to look at your EV samples in calibrated units.&#x20;
 
 <figure><img src="../../assets/examples-calibrated-vesicles.png" alt=""><figcaption><p>EVs calibrated from surface area fluorescence units to diameter units.</p></figcaption></figure>
