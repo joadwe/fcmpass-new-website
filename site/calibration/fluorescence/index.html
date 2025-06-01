@@ -1124,9 +1124,25 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../optimization/light-scatter/" class="md-nav__link">
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -1135,7 +1151,88 @@
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Light scatter
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../optimization/light-scatter/data-generation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data generation
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../optimization/light-scatter/data-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../optimization/light-scatter/data-outputs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data outputs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1461,14 +1558,14 @@
 <p class="admonition-title">Note</p>
 <p>Cross-calibrations are cytometer specific and will only appear in the fluorescent dropdown catalogue for the cytometer they were cross-calibrated on.</p>
 </div>
-<ol>
+<ol start="4">
 <li>Select the flow cytometer parameter being calibrated e.g., the PE detector</li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>It is recommended that 'Area' parameters are calibrated and not 'Height' due to 'Area' being more accurate for linear extrapolation.</p>
 </div>
-<ol>
+<ol start="5">
 <li>How the parameter is named when written to the .fcs file can be modified in the 'New Parameter Name' field. By default this will be named MESF and be preceeded by the calibration fluorophore selected.</li>
 <li>The obtained reference values for each of the reference populations for the calibrator selected should now be filled in (No. 6).</li>
 <li>To add additional parameter calibrations return to step 2. Switching between fluorescence calibration inputs can be done by selecting a different parameter under 'Selection' (No.2).</li>
@@ -1477,12 +1574,12 @@
 <p class="admonition-title">Note</p>
 <p>Ref Values of 0 are ignored. Acquired values that are left blank or as 'NaN' will also be ignored.</p>
 </div>
-<ol>
+<ol start="8">
 <li>Further calibration criteria can be applied to each fluorescence parameter calibration by clicking the 'Advanced Settings' button (No.7).</li>
 </ol>
 <figure><img src="../../assets/ExpCalFLAdvanced.png" alt=""><figcaption></figcaption></figure>
 
-<ol>
+<ol start="9">
 <li>Here 'FP Ratio' can be modified to better approximate bound detection antibody copies. 'Regression Type' can be modified to linear unit extrapolation, this is not, however, recommended. 'Surface Area to Diameter' can be switched in cases where fluorescence calibrators are in units of nm2. 'Volume to Diameter' can be switched on where fluorescence calibrators are in units of nm3.</li>
 <li>Once fluorescence parameter calibration critera are complete proceed to light scatter calibration by clicking 'Next'.</li>
 </ol>
@@ -1576,6 +1673,8 @@
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/analytics.js"></script>
       
     
   </body>

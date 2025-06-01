@@ -1120,6 +1120,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#detector-setting-incrementation-dsi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detector setting incrementation (DSI)
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1189,9 +1198,25 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../light-scatter/" class="md-nav__link">
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -1200,7 +1225,88 @@
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Light scatter
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../light-scatter/data-generation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data generation
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../light-scatter/data-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../light-scatter/data-outputs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data outputs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1539,6 +1645,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#detector-setting-incrementation-dsi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detector setting incrementation (DSI)
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1561,25 +1676,79 @@
 <ol>
 <li>Vortex rainbow peak beads bottle on a medium setting for 5 seconds.&#x20;</li>
 <li>Pipette 500 µL of DPBS in two FACS tubes. Label one tube ’DPBS” and the second tube ’Beads’.&#x20;</li>
-<li>Add 3 drops of QbSure beads to the ’Beads’ tube and vortex for 5 seconds</li>
+<li>Add 3 drops of rainbow beads to the ’Beads’ tube and vortex for 5 seconds</li>
 </ol>
 <h3 id="cytometer-setup">Cytometer setup</h3>
-<ol>
+<ol start="4">
 <li>Ensure cytometer is clean and that -Height and -Area statistics are set to be collected on all parameters and that all parameters are on.&#x20;</li>
-<li>On the Cytek Aurora, set window extension to 0. On the CytoFLEX platform turn on ’High Acquisition Mode’.&#x20;</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>On the Cytek Aurora, set window extension to 0. On the CytoFLEX platform turn on ’High Acquisition Mode’.&#x20;</p>
+</div>
+<ol start="5">
 <li>Create a pseudocolor plot with FSC-H on the X-Axis and (488 nm) B-SSC-H on the Y-Axis and make sure both parameters are being plotted on a linear-scale.&#x20;</li>
 <li>Create a histogram plot with (405 nm) V-SSC-H on the X-Axis and make sure it is plotted on a log-scale.&#x20;</li>
 <li>Set the cytometer triggering threshold to (405 nm) VSSC-H. All samples should be acquired with the lowest flow rate, typically 10-15 µL min-1.&#x20;</li>
-<li>Acquire the DPBS tube while viewing the histogram plot from Step 7&#x20;</li>
-<li>Adjust the detector gain or trigger threshold until the instrument noise is being acquired at 1000 events/sec. The instrument noise floor is distinct from detected background events in sheath as it has a sharp increase. In a system with debris there may be a tail that elongates out of this this sharp peak.&#x20;</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Cytometer Voltage/Gain and threshold settings are subjective due to their dependency on alignment, and the scatter filters in place, amongst other variables. The following are guide values to start with and may need adjustment for optimal acquisition.</p>
+<p>Beckman Coulter, CytoFLEX  [405 nm OD0 filter, 488 nm OD2 filter]
+Threshold V-SSC-H = 1000; 
+V-SSC Gain = 200
+FSC Gain = 100
+B-SSC Gain = 100</p>
+<p>Cytek Bioscience, Aurora [405 nm OD0 filter, 488 nm OD2 filter]
+Threshold V-SSC-H = 1000; 
+V-SSC Gain = 600
+FSC Gain = 70
+B-SSC Gain = 70</p>
+</div>
+<ol start="8">
+<li>Acquire the DPBS tube while viewing the histogram plot from step #6. Adjust the detector gain or trigger threshold until the instrument noise is being acquired at ~1000 events/sec. The instrument noise floor is distinct from detected background events in sheath as it has a sharp increase. In a system with debris there may be a tail that elongates out of this this sharp peak. </li>
+</ol>
+<figure><img src="../../../assets/optimization-fluorescence-noise-trigger.jpg" alt=""><figcaption></figcaption></figure>
+
+<pre><code>8.1 Recording this noise is not necessary as this step is identifying optimal settings.
+</code></pre>
+<ol start="9">
 <li>Acquire the ’Beads’ tube from Step 3. Using the plot from Step 6 adjust the FSC and B-SSC gain until the single bead population is clearly visible and can be easily gated from the doublet population to the top right of it. Use the Violet SSC trigger settings identified in Step 10 .&#x20;</li>
+</ol>
+<figure><img src="../../../assets/optimization-fluorescence-singlets.jpg" alt=""><figcaption></figcaption></figure>
+
+<ol start="10">
 <li>Creating a gate around the single bead population named ’Bead Gate’.&#x20;</li>
 <li>Adjust the stopping criteria of the instrument to record until 10,000 events are acquired on ’Bead Gate’ drawn in Step 1.</li>
 </ol>
-<p>Detector setting incrementation (DSI)</p>
+<h2 id="detector-setting-incrementation-dsi">Detector setting incrementation (DSI)</h2>
+<ol start="12">
+<li>
+<p>DSI can now be performed by recording the ’Beads’ tube at multiple fluorescent detector gains, leaving the trigger threshold and light scatter gains consistent. It is recommended that a recording of at least 10 fluorescent detector settings is taken. Including more increments within a DSI set will result in being more confident of the subsequent optimal detector settings.&#x20;</p>
+<p>12.1 To ensure accurate data analysis, the brightest bead must be visible on at least two of the selected gains.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For flow cytometers with avalanche photodiodes its is recommended that the fluorescent detector settings have more incrementation at lower gains than higher gains while for instruments with photomultiplier tubes they should be spaced evenly. See template for example of settings for each tube analyses</p>
+<p>Example Gain Voltration for CytoFLEX &amp; Aurora</p>
 <ol>
-<li>DSI can now be performed by recording the ’Beads’ tube at multiple fluorescent detector gains, leaving the trigger threshold and light scatter gains consistent. It is recommended that a recording of at least 10 fluorescent detector settings is taken. Including more increments within a DSI set will result in being more confident of the subsequent optimal detector settings.&#x20;</li>
-<li>Fluorescent channels can be cross calibrated to determine lower limit of detection for the channel in calibrated units in the FCMPASS software. A cross calibration between the desired MESF bead and QbSure beads should be acquired at a fluorescent detector gain where all MESF bead populations are on-scale and fully resolved from the noise.</li>
+<li>100</li>
+<li>200</li>
+<li>300</li>
+<li>400</li>
+<li>500</li>
+<li>750</li>
+<li>1000</li>
+<li>1250</li>
+<li>1500</li>
+<li>2000</li>
+<li>2500</li>
+<li>3000</li>
+</ol>
+</div>
+<ol start="13">
+<li>Fluorescent channels can be cross calibrated to determine lower limit of detection for the channel in calibrated units in the FCM<sub>PASS</sub> software. A cross calibration between the desired MESF bead and rainbow beads should be acquired at a fluorescent detector gain where all MESF bead populations are on-scale and fully resolved from the noise.</li>
 </ol>
 
 
@@ -1671,6 +1840,8 @@
     
     
       <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../../assets/analytics.js"></script>
       
     
   </body>
