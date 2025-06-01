@@ -1109,9 +1109,25 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../optimization/light-scatter/" class="md-nav__link">
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -1120,7 +1136,88 @@
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Light scatter
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../optimization/light-scatter/data-generation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data generation
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../optimization/light-scatter/data-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../optimization/light-scatter/data-outputs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data outputs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1570,12 +1667,12 @@
 </ol>
 <figure><img src="../../assets/examples-Singlet gating.png" alt=""><figcaption><p>Gating singlet population of multi-spectral beads (A) and inspecting the separation of each population across different fluorescence detectors (B-F)</p></figcaption></figure>
 
-<ol>
+<ol start="4">
 <li>Once each of the PE-H populations has been gated we can obtain the statistics for all necessary fluorescence parameter on the area (-A) statistic. It should be noted that populations with large overlaps are unlikely unresolved and their units should be ignored.&#x20;</li>
 </ol>
 <figure><img src="../../assets/examples-Population gating.png" alt=""><figcaption><p>Gating of individual fluorescence population on PE-H (A) and view the gated populations overlaid across different fluorescence detectors (B-F)</p></figcaption></figure>
 
-<ol>
+<ol start="5">
 <li>Upon obtaining the statistics from each population we can now move to calibrating the data in FCM<sub>PASS</sub>. In this case we will use only vFRed-A (the membrane dye).</li>
 </ol>
 <table>
@@ -1598,7 +1695,7 @@
 </tr>
 </tbody>
 </table>
-<ol>
+<ol start="6">
 <li>Along with the gated median fluorescence intensity statistics in Step 5, having the assigned units that came with the bead lot should also be available.</li>
 </ol>
 <table>
@@ -1623,21 +1720,21 @@
 </table>
 <h2 id="adding-your-reference-materials-to-fcmpass">Adding your reference materials to FCM<sub>PASS</sub></h2>
 <p>FCM<sub>PASS</sub> catalogues all of your reference materials so that you can easily access the reference numbers for future experiments and create automated reports for increasing the  transparency and ease of sharing your datasets.</p>
-<ol>
+<ol start="7">
 <li>Open FCM<sub>PASS</sub>, select 'Catalogue' and navigate to the 'Fluorescence' tab.</li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Ensure you have added a cytometer as outlined in <a href="../../cataloguing/flow-cytometers/" title="mention">Flow cytometers</a>.</p>
 </div>
-<ol>
+<ol start="8">
 <li>Input the nanoRainbow information and add 'Create Set'.</li>
 </ol>
 <figure><img src="../../assets/examples-image (2).png" alt=""><figcaption></figcaption></figure>
 
 <h2 id="calibrate-your-data-with-fcmpass">Calibrate your data with FCM<sub>PASS</sub></h2>
 <p>Now that your reference materials have been added and you have the median fluorescence intensity for your bead population you're ready to calibrate your data.&#x20;</p>
-<ol>
+<ol start="9">
 <li>Go to the start menu of FCM<sub>PASS</sub> and select 'Experiment Calibration'.</li>
 <li>Select the cytometer you acquired your data on and create a new experiment by click '+'.</li>
 <li>Name the dataset and click 'save'</li>
@@ -1645,13 +1742,13 @@
 </ol>
 <figure><img src="../../assets/examples-image (3).png" alt=""><figcaption></figcaption></figure>
 
-<ol>
+<ol start="13">
 <li>Click 'Next' and add a fluorescence calibration by clicking the '+' button.&#x20;</li>
 <li>Select the surface area calibration, choose the appropriate parameter (vFRed-A), and rename the parameter parameter appropriately (this is how it will appear in the .fcs file)</li>
 </ol>
 <figure><img src="../../assets/examples-image (4).png" alt=""><figcaption></figcaption></figure>
 
-<ol>
+<ol start="15">
 <li>Now input the relavant median fluorescence intensity statistc that was obtained earlier into the 'Regression Values' box.</li>
 </ol>
 <div class="admonition note">
@@ -1660,18 +1757,18 @@
 </div>
 <figure><img src="../../assets/examples-image (5).png" alt=""><figcaption></figcaption></figure>
 
-<ol>
+<ol start="16">
 <li>To convert the surface area regression into units of diameter select 'Advanced settings' and turn 'Surface Area to Diameter ' to 'on' and press 'save'.</li>
 <li>You can now click 'Next through to 'Perform Calibration' and click 'Calibrate'.</li>
 <li>All files will be exported into an 'FCM<sub>PASS</sub> Export' folder in the location that the files were originally imported from.&#x20;</li>
 </ol>
 <h2 id="calibrated-data">Calibrated data</h2>
-<ol>
+<ol start="19">
 <li>Now when inspecting your .fcs files in analysis software you will see the original parameter for the beads light scatter and fluorescence (Plot A-B) and two new parameters. The surface area calibrated data (Plot C) and the conversion of surface area to diameter data (Plot D).&#x20;</li>
 </ol>
 <figure><img src="../../assets/examples-calibrated-nanorainbow.png" alt=""><figcaption><p>nanoRainbow beads gated with singles (A), arbitrary unit fluorescence data (B), calibrated surface area units (C) and calibrated diameter units (D). </p></figcaption></figure>
 
-<ol>
+<ol start="20">
 <li>This data can now be used to look at your EV samples in calibrated units.&#x20;</li>
 </ol>
 <figure><img src="../../assets/examples-calibrated-vesicles.png" alt=""><figcaption><p>EVs calibrated from surface area fluorescence units to diameter units.</p></figcaption></figure>
@@ -1765,6 +1862,8 @@
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/analytics.js"></script>
       
     
   </body>

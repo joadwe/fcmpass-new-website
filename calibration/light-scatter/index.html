@@ -1207,9 +1207,25 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../optimization/light-scatter/" class="md-nav__link">
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -1218,7 +1234,88 @@
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Light scatter
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../optimization/light-scatter/data-generation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data generation
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../optimization/light-scatter/data-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../optimization/light-scatter/data-outputs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data outputs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1603,14 +1700,14 @@
 <p class="admonition-title">Note</p>
 <p>If this parameter is the same as the trigger threshold of the acquisition the 'Scatter Threshold' field will autocomplete. If more than one trigger parameter is used within the loaded set of .fcs files, FCM<sub>PASS</sub> will default to the trigger threshold that was used the most.</p>
 </div>
-<ol>
+<ol start="4">
 <li>Alter the 'Scatter Wavelength (nm)' field to the wavelength that light scatter calibration is being performed at. Typically this is either 405 or 488 nm.</li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Updating your the 'Scatter Wavelength (nm)' field will automatically update 'Sheath RIs', calibration bead refractive indices, and custom particle models in the advanced settings. Custom particle models are updated based on the dispersion curves of water.</p>
 </div>
-<ol>
+<ol start="5">
 <li>From the 'Bead Set' dropdown, select the calibration beads that were used as calibrators for the acquired data.</li>
 <li>The median intensity of each bead should then be inputted into the 'Acquired Stat (au)' field. 'Acquired CV (%)' are optional and only used for illustrative purposes on the outputted scatter-diameter plots.</li>
 </ol>
@@ -1618,7 +1715,7 @@
 <p class="admonition-title">Note</p>
 <p>Fields that are left blank or contain 'NaN' will be ignored and removed automatically from downstream calibration.</p>
 </div>
-<ol>
+<ol start="5">
 <li>Further advanced light scatter calibration parameters can be applied or modified by clicking the 'Advanced Settings' button (No.4). Otherwise, proceed to <a href="../process-fcs-files/">processing .fcs files</a></li>
 </ol>
 <h2 id="advanced-settings">Advanced settings</h2>
@@ -1744,6 +1841,8 @@
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../assets/analytics.js"></script>
       
     
   </body>
