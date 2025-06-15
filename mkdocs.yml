@@ -1,4 +1,4 @@
-site_name: FCM<sub>PASS</sub>
+site_name: FCMPASS
 site_url: https://fcmpass.com
 theme:
   name: material
@@ -90,9 +90,27 @@ markdown_extensions:
 
 plugins:
   - search
+  - privacy
 
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: G-2YF624ZPZC
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 
   consent:
     title: Cookie consent
@@ -104,9 +122,20 @@ extra:
     actions:
       - accept
       - manage
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
 
+      
 extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
   - assets/analytics.js
+  - assets/consent.js
+  - assets/feedback.js
+
+copyright: >
+  Copyright &copy; 2022 - 2025 Joshua Welsh, All Rights Reserved –
+  <a href="#__consent">Change cookie settings</a>

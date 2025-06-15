@@ -64,7 +64,7 @@
 
 2.2. All sales are final. The Customer acknowledges that once the payment is made, it is non-refundable, even if the Software is returned or the license is terminated for any reason before its expiry date.
 
-2.3 All purchased licenses must be activated within 1000 days of purchase date. Licenses not activated will be voided without refund or extension.
+2.3 All purchased licenses activate immediately from the purchase date and are valid for a period of 365 days.
 
 ## 3 RESTRICTIONS
 
