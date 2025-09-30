@@ -15,7 +15,7 @@
 
     1. Complete the form and click submit.
     2. If your academic email address is recognized you will receive an email with your software license and follow the login instructions.&#x20;
-    3. Your account and license can be managed at [https://license.fcm<sub>pass</sub>.com](https://license.fcm<sub>pass</sub>.com) where you can login with your registered credentials
+    3. Your account and license can be managed at [https://license.fcmpass.com](https://license.fcmpass.com) where you can login with your registered credentials
 
 === "Login"
 

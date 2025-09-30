@@ -5,6 +5,17 @@ hide:
 
 # Changelog
 
+## v5.0.11
+
+### Added
+
+* Support for Bigfoot, CytoFLEX Mosaic, FACSDiscover
+* Ability to export Catalogue
+
+### Updated
+
+* Light scatter voltration is no longer tied to Aurora, CytoFLEX, and Quanteon platforms.
+
 ## v5.0.10
 
 ### Fixes
