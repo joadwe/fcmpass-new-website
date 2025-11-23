@@ -5,6 +5,12 @@ hide:
 
 # Changelog
 
+## v5.0.12
+
+### Fixes
+
+* Fixed an error that would stop reimport of CytoFLEX and CytoFLEX Nano files being unable to be reimported into CytExpert.
+
 ## v5.0.11
 
 ### Added
