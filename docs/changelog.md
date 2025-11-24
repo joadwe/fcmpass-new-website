@@ -10,6 +10,7 @@ hide:
 ### Fixes
 
 * Fixed an error that would stop reimport of CytoFLEX and CytoFLEX Nano files being unable to be reimported into CytExpert.
+* Fixed MacOS installer no longer will be quarantined and require workarounds for installation. 
 
 ## v5.0.11
 
