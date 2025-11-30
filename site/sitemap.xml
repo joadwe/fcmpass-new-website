@@ -2,114 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://fcmpass.com/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/changelog/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/contact/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/download/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/calibration/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/calibration/fluorescence/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/calibration/light-scatter/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/calibration/process-fcs-files/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/cataloguing/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/cataloguing/automated-cross-calibration/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/cataloguing/flow-cytometers/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/cataloguing/fluorescent-beads/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/cataloguing/rainbow-beads/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/cataloguing/scatter-beads/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/examples/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/examples/fluorescence-diameter/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/examples/known-angle-scatter-calibration/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
+    </url>
+    <url>
+         <loc>https://fcmpass.com/getting-started/cytometer-support/</loc>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/getting-started/install-requirements/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/getting-started/installation/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/getting-started/registration-and-login/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/legal/privacy-policy/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/legal/terms-of-service/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/optimization/fluorescence/data-analysis/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/optimization/fluorescence/data-generation/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/optimization/fluorescence/data-outputs/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/optimization/light-scatter/data-analysis/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/optimization/light-scatter/data-generation/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
     <url>
          <loc>https://fcmpass.com/optimization/light-scatter/data-outputs/</loc>
-         <lastmod>2025-11-24</lastmod>
+         <lastmod>2025-11-30</lastmod>
     </url>
 </urlset>
