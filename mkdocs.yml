@@ -38,6 +38,7 @@ nav:
   - download.md
   - Documentation:
     - Getting Started:
+      - Cytometer Support: getting-started/cytometer-support.md
       - Install Requirements: getting-started/install-requirements.md
       - Installation: getting-started/installation.md
       - Registration & login: getting-started/registration-and-login.md

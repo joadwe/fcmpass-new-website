@@ -1,19 +1,20 @@
 # Supported cytometers
 
-## Agilent
+Below you can find the cytometers that we currently support. If your cytometer is missing please email us at [info@fcmpass.com](mailto:info@fcmpass.com) with an example .fcs file and we'd be happy to add support. 
 
+??? info "Agilent"
+    * Novocyte
     * NovoCyte Quanteon
     * NovoCyte Opteon
 
-## Beckman Coulter
-
+??? info "Beckman Coulter"
     * Astrios
     * CytoFLEX (S, LX)
+    * CytoFLEX SRT
     * CytoFLEX Nano
     * DxFLEX
 
-## Becton Dickinson
-
+??? info "Becton Dickinson"
     * FACS Aria (I, II, II)
     * FACS Canto (I, II)
     * FACS Discover
@@ -22,22 +23,18 @@
     * Influx
     * LSR Fortessa
 
-## Cytek Biosceinces
-
+??? info "Cytek Biosciences"
     * Aurora
     * CellStream
     * Imagestream
     * Northern Lights
 
-## nanofcm
-
+??? info "nanofcm"
     * Flow NanoAnalyzer
 
-## Sony Biosciences
-
+??? info "Sony Biosciences"
     * ID7000
 
-## ThermoFisher Scientific
-
+??? info "ThermoFisher Scientific"
     * Attune
     * Bigfoot

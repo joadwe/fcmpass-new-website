@@ -5,6 +5,16 @@ hide:
 
 # Changelog
 
+## v5.0.13
+
+### Fixes
+
+* Fixed an error where support cytometers for calibration were failing on Catalogue 'Import reference file' function. 
+
+### Added
+
+* Support for DxFLEX
+
 ## v5.0.12
 
 ### Fixes
