@@ -5,6 +5,26 @@ hide:
 
 # Changelog
 
+## v5.0.15
+
+### Fixed
+
+* Error leading to 2-byte offset in some .fcs files causing reading errors
+
+### Updated
+
+* Cryptlex licensing library
+* EULA
+* FCMPASS URL links
+* Login page provides explicit steps
+* 'Report bug' button to include error readout into an email template
+
+## v5.0.14
+
+### Fixes
+
+* Fixed an error in fcs file parsing that could lead to memory leak
+
 ## v5.0.13
 
 ### Fixes
