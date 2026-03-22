@@ -21,4 +21,6 @@ For software information, feature requests, or troubleshooting, please contact [
 
 For software license enquiries, quotes, and invoices, please contact [sales@fcmpass.com](mailto:sales@fcmpass.com).
 
-For FCM<sub>PASS</sub> sales enquiries sales@fcmpass.com
+To generate a self-service quote, visit [quote.fcmpass.com](https://quote.fcmpass.com){ target="_blank" }.
+
+To check if your institutional email address is recognized, visit [check.fcmpass.com](https://check.fcmpass.com){ target="_blank" }.

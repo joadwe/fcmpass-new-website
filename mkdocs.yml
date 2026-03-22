@@ -1,12 +1,21 @@
 site_name: FCMPASS
 site_url: https://fcmpass.com
+site_description: >-
+  FCMpass — comprehensive small particle flow cytometry cataloguing,
+  optimization, calibration, and reporting software.
+site_author: Joshua Welsh
 theme:
   name: material
   logo: assets/logo-720.jpeg
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
+    - navigation.footer
+    - navigation.top
+    - toc.follow
     - search.suggest
     - search.highlight
     - search.share
@@ -35,7 +44,8 @@ theme:
 
 nav:
   - Home: README.md
-  - download.md
+  - Download: download.md
+  - Pricing: pricing.md
   - Documentation:
     - Getting Started:
       - Cytometer Support: getting-started/cytometer-support.md
@@ -59,7 +69,7 @@ nav:
         - Data generation: optimization/fluorescence/data-generation.md
         - Data analysis: optimization/fluorescence/data-analysis.md
         - Data outputs: optimization/fluorescence/data-outputs.md
-      - Light scatter: 
+      - Light scatter:
         - Data generation: optimization/light-scatter/data-generation.md
         - Data analysis: optimization/light-scatter/data-analysis.md
         - Data outputs: optimization/light-scatter/data-outputs.md
@@ -67,11 +77,12 @@ nav:
     - Overview: examples/README.md
     - Fluorescence Diameter: examples/fluorescence-diameter.md
     - Known Scatter Angle: examples/known-angle-scatter-calibration.md
+  - FAQ: faq.md
+  - Contact Us: contact.md
   - Legal:
     - Terms of service: legal/terms-of-service.md
     - Privacy policy: legal/privacy-policy.md
   - Changelog: changelog.md
-  - Contact Us: contact.md
   
 markdown_extensions:
 - pymdownx.superfences
@@ -79,7 +90,6 @@ markdown_extensions:
     alternate_style: true
 - admonition
 - pymdownx.details
-- pymdownx.superfences
 - sane_lists
 - pymdownx.critic
 - pymdownx.caret
@@ -88,6 +98,11 @@ markdown_extensions:
 - pymdownx.tilde
 - tables
 - footnotes
+- attr_list
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- md_in_html
 
 plugins:
   - search
@@ -138,5 +153,5 @@ extra_javascript:
   - assets/feedback.js
 
 copyright: >
-  Copyright &copy; 2022 - 2025 Joshua Welsh, All Rights Reserved –
+  Copyright &copy; 2022 - 2026 The Measuring Stick, Ltd. All Rights Reserved –
   <a href="#__consent">Change cookie settings</a>

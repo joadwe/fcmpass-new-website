@@ -29,7 +29,10 @@ For information on installation, registration, and login, please see the [docume
 
 === "Paid tier:"
 
-    If the software needs to be used in a way that doesn't fall within the specified 'free tier' criteria,  unrestricted licenses can be purchased. Please contact [sales@fcmpass.com](mailto:sales@fcmpass.com).&#x20;
+    If the software needs to be used in a way that doesn't fall within the specified 'free tier' criteria, unrestricted licenses can be purchased.
+
+    [Get a Quote :material-file-document-edit:](https://quote.fcmpass.com){ .md-button .md-button--primary target="_blank" }
+    [Contact Sales :material-email:](mailto:sales@fcmpass.com){ .md-button }
 
     Paid tiers will also have access to:
 
@@ -41,17 +44,17 @@ For information on installation, registration, and login, please see the [docume
 
 Please refer to the installation and registration [documentation](getting-started/registration-and-login.md) for supported platforms and login information.
 
-<div style="display: flex; justify-content: start; gap: 10px;">
-  <div style="text-align: center; max-width: 25%; border: 1px solid #ccc; padding: 10px; box-sizing: border-box;">
-    <a href="https://win.download.fcmpass.com" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; color: inherit;">
-      <img src="../assets/main-Slide1.png" alt="Download for Windows" style="width: 100%; height: auto;">
-      <p>Download Windows</p>
-    </a>
-    </div>
-    <div style="text-align: center; max-width: 25%; border: 1px solid #ccc; padding: 10px; box-sizing: border-box;">
-    <a href="https://mac.download.fcmpass.com" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; color: inherit;">
-      <img src="../assets/main-Slide2.png" alt="Download for Apple (M-series)" style="width: 100%; height: auto;">
-      <p>Download Mac</p>
-    </a>
-    </div>
+<div class="download-buttons" markdown>
+<div class="download-card" markdown>
+<a href="https://win.download.fcmpass.com" target="_blank">
+<img src="../assets/main-Slide1.png" alt="Download for Windows">
+<p>Download Windows</p>
+</a>
+</div>
+<div class="download-card" markdown>
+<a href="https://mac.download.fcmpass.com" target="_blank">
+<img src="../assets/main-Slide2.png" alt="Download for Apple (M-series)">
+<p>Download Mac</p>
+</a>
+</div>
 </div>

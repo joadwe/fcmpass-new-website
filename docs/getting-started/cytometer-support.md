@@ -14,7 +14,7 @@ Below you can find the cytometers that we currently support. If your cytometer i
     * CytoFLEX Nano
     * DxFLEX
 
-??? info "Becton Dickinson"
+??? info "Waters (formerly Becton Dickinson)"
     * FACS Aria (I, II, II)
     * FACS Canto (I, II)
     * FACS Discover
