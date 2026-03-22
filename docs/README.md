@@ -10,8 +10,10 @@ hide:
 
 FCM<sub>PASS</sub> is a comprehensive software for **cataloguing**, **optimizing**, **calibrating**, and **reporting** small particle flow cytometry data — improving rigor and reproducibility across instruments and laboratories.
 
+<div class="hero-buttons" markdown>
 [Download :material-download:](download.md){ .md-button .md-button--primary }
 [Get a Quote :material-file-document-edit:](https://quote.fcmpass.com){ .md-button target="_blank" }
+</div>
 
 </div>
 
