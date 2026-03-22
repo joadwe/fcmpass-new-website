@@ -173,3 +173,75 @@
 .grid.cards > ul > li {
   border-radius: 8px;
 }
+
+/* Pricing table scroll wrapper */
+.pricing-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* =====================
+   Responsive: Tablet (≤960px)
+   ===================== */
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+
+  .pricing-unified {
+    font-size: 0.8rem;
+  }
+
+  .pricing-unified th,
+  .pricing-unified td {
+    padding: 0.5rem 0.6rem;
+  }
+
+  .download-card {
+    max-width: 45%;
+  }
+}
+
+/* =====================
+   Responsive: Mobile (≤600px)
+   ===================== */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  /* Stack CTA buttons vertically */
+  .hero .md-button {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    margin: 0.4rem auto;
+    text-align: center;
+  }
+
+  .pricing-unified {
+    font-size: 0.75rem;
+  }
+
+  .pricing-unified th,
+  .pricing-unified td {
+    padding: 0.4rem 0.5rem;
+    white-space: nowrap;
+  }
+
+  /* Download cards stack to full width */
+  .download-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .download-card {
+    max-width: 100%;
+    width: 100%;
+  }
+}

@@ -10,6 +10,7 @@ FCM<sub>PASS</sub> offers flexible licensing designed for both academic research
 
 ## Plans
 
+<div class="pricing-scroll">
 <table class="pricing-unified">
   <thead>
     <tr>
@@ -109,6 +110,7 @@ FCM<sub>PASS</sub> offers flexible licensing designed for both academic research
     </tr>
   </tbody>
 </table>
+</div>
 
 All licenses include 2 deactivations per license term, allowing you to transfer your activation to a different computer.
 
