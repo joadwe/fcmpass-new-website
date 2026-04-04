@@ -31,8 +31,7 @@ For information on installation, registration, and login, please see the [docume
 
     If the software needs to be used in a way that doesn't fall within the specified 'free tier' criteria, unrestricted licenses can be purchased.
 
-    [Get a Quote :material-file-document-edit:](https://quote.fcmpass.com){ .md-button .md-button--primary target="_blank" }
-    [Contact Sales :material-email:](mailto:sales@fcmpass.com){ .md-button }
+    [Contact Sales :material-email:](mailto:sales@fcmpass.com){ .md-button .md-button--primary }
 
     Paid tiers will also have access to:
 

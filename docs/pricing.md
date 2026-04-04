@@ -133,12 +133,11 @@ The software is available for **free** to users at authorized and accredited deg
 
 ## Commercial Licenses
 
-If your use case falls outside the academic free tier — including commercial R&D, fee-for-service work, or industrial collaborations — a paid license is required. Generate a quote instantly or contact our sales team.
+If your use case falls outside the academic free tier — including commercial R&D, fee-for-service work, or industrial collaborations — a paid license is required. Please contact our sales team.
 
 <div class="cta-buttons" markdown>
 
-[Get a Quote :material-file-document-edit:](https://quote.fcmpass.com){ .md-button .md-button--primary target="_blank" }
-[Contact Sales :material-email:](mailto:sales@fcmpass.com){ .md-button }
+[Contact Sales :material-email:](mailto:sales@fcmpass.com){ .md-button .md-button--primary }
 
 </div>
 

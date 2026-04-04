@@ -12,7 +12,7 @@ FCM<sub>PASS</sub> is a comprehensive software for **cataloguing**, **optimizing
 
 <div class="hero-buttons" markdown>
 [Download :material-download:](download.md){ .md-button .md-button--primary }
-[Get a Quote :material-file-document-edit:](https://quote.fcmpass.com){ .md-button target="_blank" }
+[Pricing :material-currency-usd:](pricing.md){ .md-button }
 </div>
 
 </div>
@@ -101,7 +101,7 @@ FCM<sub>PASS</sub> works with instruments from leading manufacturers:
 
     ---
 
-    Free academic licenses and paid commercial tiers. Generate a self-service quote instantly.
+    Free academic licenses and paid commercial tiers.
 
     [:octicons-arrow-right-24: View pricing](pricing.md)
 

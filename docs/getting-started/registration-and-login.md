@@ -9,7 +9,7 @@
 
         You can check if your email address is recognized at: [check.fcmpass.com](https://check.fcmpass.com/).
 
-        If you work outside of an academic institution and would like to access the software, you will need to purchase a software license. Please visit [quote.fcmpass.com](https://quote.fcmpass.com){ target="_blank" } for a quote or contact [sales@fcmpass.com](mailto:sales@fcmpass.com).&#x20;
+        If you work outside of an academic institution and would like to access the software, you will need to purchase a software license. Please contact [sales@fcmpass.com](mailto:sales@fcmpass.com) or visit our [pricing page](../pricing.md).&#x20;
 
         If you are suspected of registering your account using an alumni email address and using the software within a non-degree granting organization without a valid license, your account may be suspended.
 

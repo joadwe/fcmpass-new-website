@@ -27,13 +27,13 @@ hide:
     All licenses — academic and commercial — are valid for **one year** from the date of activation and can be renewed. Demo licenses are valid for 30 days.
 
 ??? question "Can I use FCM<sub>PASS</sub> for commercial work?"
-    Yes, with a **paid commercial license**. Academic (free) licenses may not be used for commercial R&D, fee-for-service work, or industrial collaborations where outputs are shared with commercial entities. Visit our [pricing page](pricing.md) or [get a quote](https://quote.fcmpass.com){ target="_blank" }.
+    Yes, with a **paid commercial license**. Academic (free) licenses may not be used for commercial R&D, fee-for-service work, or industrial collaborations where outputs are shared with commercial entities. Visit our [pricing page](pricing.md) for details.
 
 ??? question "How many computers can I install FCM<sub>PASS</sub> on?"
     Academic licenses allow installation on up to **2 computers**, provided the software is only used on one at a time. Paid licenses allow installation on **1 computer**, but can be deactivated and transferred to a different computer once per license term.
 
-??? question "How do I get a quote for a commercial license?"
-    You can generate a self-service quote instantly at [quote.fcmpass.com](https://quote.fcmpass.com){ target="_blank" }, or contact [sales@fcmpass.com](mailto:sales@fcmpass.com) directly.
+??? question "How do I purchase a commercial license?"
+    Please contact [sales@fcmpass.com](mailto:sales@fcmpass.com) to purchase a commercial license.
 
 ??? question "Where can I manage my account and license?"
     Your account and license can be managed at [license.fcmpass.com](https://license.fcmpass.com){ target="_blank" } using your registered credentials.
