@@ -8,9 +8,9 @@ hide:
 ## v5.0.16
 
 ### Fixed
-Updated FCS file writer to handle byte-offset corrections not resolved in v5.0.15 for CytoFLEX and Apogee platforms
-Error where some Windows post-update database would encounter read/write permission issues
-Northern Lights files exported from newer version of SpectroFlo failing due to a change in $CYT name
+* Updated FCS file writer to handle byte-offset corrections not resolved in v5.0.15 for CytoFLEX and Apogee platforms
+* Error where some Windows post-update database would encounter read/write permission issues
+* Northern Lights files exported from newer version of SpectroFlo failing due to a change in $CYT name
 
 ## v5.0.15
 
