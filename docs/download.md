@@ -46,13 +46,13 @@ Please refer to the installation and registration [documentation](getting-starte
 <div class="download-buttons" markdown>
 <div class="download-card" markdown>
 <a href="https://win.download.fcmpass.com" target="_blank">
-<img src="../assets/main-Slide1.png" alt="Download for Windows">
+<img src="../assets/main-Slide1.PNG" alt="Download for Windows">
 <p>Download Windows</p>
 </a>
 </div>
 <div class="download-card" markdown>
 <a href="https://mac.download.fcmpass.com" target="_blank">
-<img src="../assets/main-Slide2.png" alt="Download for Apple (M-series)">
+<img src="../assets/main-Slide2.PNG" alt="Download for Apple (M-series)">
 <p>Download Mac</p>
 </a>
 </div>
