@@ -7,6 +7,16 @@ hide:
 
 ## v5.0.16
 
+### Added
+* Support for BD FACSVerse FCS files.
+* Support for FACSDiscover detector setting optimization
+
+### Fixed
+* Improved database permissions issues between sessions
+* App retains light mode for UI and outputer report even if system is in Dark Mode 
+
+## v5.0.16
+
 ### Fixed
 * Updated FCS file writer to handle byte-offset corrections not resolved in v5.0.15 for CytoFLEX and Apogee platforms
 * Error where some Windows post-update database would encounter read/write permission issues
