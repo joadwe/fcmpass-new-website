@@ -17,9 +17,10 @@ Below you can find the cytometers that we currently support. If your cytometer i
 ??? info "Waters (formerly Becton Dickinson)"
     * FACS Aria (I, II, II)
     * FACS Canto (I, II)
-    * FACS Discover
+    * FACS Discover (A7, A8, S8)
     * FACS Melody
     * FACS Symphony (A1, A3, A5)
+    * FACS Verse
     * Influx
     * LSR Fortessa
 
